@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compare</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center min-vh-100 p-3">
+
+<div class="box">
+  <img src="before.png" alt="Before">
+  <img src="after.png" alt="After">
+  <input type="range" min="0" max="100" value="50"
+         oninput="this.parentNode.style.setProperty('--p', this.value + '%')">
+</div>
+
+</body>
+</html>
